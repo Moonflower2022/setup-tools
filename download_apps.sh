@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# APPLICATIONS
+
 brew install rectangle
 brew install obsidian
 brew install arc
@@ -13,8 +15,7 @@ brew install iterm2
 brew install bitwarden
 brew install maccy
 
-#
-
+# COMMAND LINE TOOLS
 
 brew install yt-dlp
 brew install fzf

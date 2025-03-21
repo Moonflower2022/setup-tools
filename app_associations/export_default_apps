@@ -1,0 +1,36 @@
+#!/bin/bash
+
+usage() {
+    echo "Usage: $0 <backup_directory>"
+    exit 1
+}
+
+if [ -z "$1" ]
+then
+    usage
+fi
+
+extensions_file="$HOME/github_projects/setup-tools/app_associations/extensions.txt"
+output_file="$1/default_app_settings.json"
+
+echo '' > $output_file
+
+if [ ! -f $extensions_file ]; then
+    echo "Error: $extensions_file not found!"
+    exit 1
+fi
+
+echo "{" >> "$output_file"
+
+while IFS= read -r ext; do
+    app_bundle=$(duti -x $ext 2>>/dev/null | sed -n '3p')
+    if [ -n "$app_bundle" ]
+    then
+        echo "  \"$ext\": \"$app_bundle\"," >> "$output_file"
+    fi
+done < $extensions_file
+
+# Remove the last comma
+sed -i '' '$ s/,$//' "$output_file"
+
+echo "}" >> "$output_file"

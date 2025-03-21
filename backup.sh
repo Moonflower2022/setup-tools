@@ -20,3 +20,6 @@ cp "$ARC_SETTINGS_PATH/keybindings.json" "$BACKUP_DIR/settings/Code"
 # ITERM
 ITERM_SETTINGS_PATH="$HOME/Library/Preferences/com.googlecode.iterm2.plist"
 cp "$ITERM_SETTINGS_PATH" "$BACKUP_DIR/settings"
+
+# APP ASSOCIATIONS
+~/github_projects/setup-tools/app_associations/export_default_apps ~/github_projects/setup-tools/settings

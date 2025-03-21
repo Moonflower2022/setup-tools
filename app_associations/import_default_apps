@@ -1,0 +1,18 @@
+#!/bin/bash
+
+usage() {
+    echo "Usage: $0 <path/to/default_app_settings.json>"
+    exit 1
+}
+
+if [ -z "$1" ]; then
+    usage
+fi
+
+# Path to your JSON file
+json_file=$1
+
+# Read the JSON file and iterate over each key-value pair
+jq -r 'to_entries | .[] | "\(.key) \(.value)"' "$json_file" | while read -r ext app_id; do
+    duti -s "$app_id" "$ext" all
+done

@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Make sure we’re using the latest Homebrew.
+brew update
+
+# Upgrade any already-installed formulae.
+brew upgrade
+
 # APPLICATIONS
 
 brew install rectangle
@@ -19,3 +25,10 @@ brew install maccy
 
 brew install yt-dlp
 brew install fzf
+brew install ffmpeg
+brew install grep
+brew install sbcl
+brew install xclip
+
+# Remove outdated versions from the cellar.
+brew cleanup

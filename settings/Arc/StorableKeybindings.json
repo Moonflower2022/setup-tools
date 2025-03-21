@@ -1,0 +1,718 @@
+{
+  "version" : 1,
+  "userOverrides" : [
+    {
+      "source" : "userDefined",
+      "priority" : "low",
+      "action" : {
+        "identifier" : "focusNextSpace",
+        "name" : "Next Space"
+      },
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 1310720,
+            "keyEquivalent" : "↑"
+          }
+        }
+      },
+      "default" : {
+        "shortcut" : {
+          "keyEquivalent" : "→",
+          "deviceIndependentModifierFlags" : 1572864
+        },
+        "typeTravelTriggers" : [
+          "Next Space",
+          "Focus Next Space"
+        ],
+        "priority" : "low"
+      }
+    },
+    {
+      "action" : {
+        "identifier" : "selectNextTab",
+        "name" : "Next Tab"
+      },
+      "source" : "userDefined",
+      "default" : {
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 1572864,
+          "keyEquivalent" : "↓"
+        },
+        "priority" : "overrideWebView",
+        "typeTravelTriggers" : [
+          "Next Tab"
+        ]
+      },
+      "priority" : "overrideWebView",
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 1572864,
+            "keyEquivalent" : "→"
+          }
+        }
+      }
+    },
+    {
+      "priority" : "promptAfterConsumedByWebView",
+      "action" : {
+        "identifier" : "focusSidebar",
+        "name" : "Reveal Current Tab"
+      },
+      "default" : {
+        "priority" : "promptAfterConsumedByWebView",
+        "typeTravelTriggers" : [
+          "Reveal Current Tab"
+        ],
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 262144,
+          "keyEquivalent" : " "
+        }
+      },
+      "state" : {
+        "unset" : {
+
+        }
+      },
+      "source" : "userDefined"
+    },
+    {
+      "priority" : "low",
+      "default" : {
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 1048576,
+          "keyEquivalent" : "2"
+        },
+        "priority" : "low",
+        "typeTravelTriggers" : [
+          "Projects",
+          "2nd space"
+        ]
+      },
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 1048576,
+            "keyEquivalent" : "2"
+          }
+        }
+      },
+      "action" : {
+        "name" : "Projects",
+        "identifier" : "space2"
+      },
+      "source" : "userDefined"
+    },
+    {
+      "action" : {
+        "name" : "Go to Sidebar Item 6",
+        "identifier" : "item6"
+      },
+      "default" : {
+        "shortcut" : {
+          "keyEquivalent" : "6",
+          "deviceIndependentModifierFlags" : 1048576
+        },
+        "typeTravelTriggers" : [
+          "Go to Sidebar Item 6",
+          "6th tab",
+          "6th item"
+        ],
+        "priority" : "low"
+      },
+      "source" : "userDefined",
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 262144,
+            "keyEquivalent" : "6"
+          }
+        }
+      },
+      "priority" : "low"
+    },
+    {
+      "action" : {
+        "identifier" : "space3",
+        "name" : "Event"
+      },
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "keyEquivalent" : "3",
+            "deviceIndependentModifierFlags" : 1048576
+          }
+        }
+      },
+      "default" : {
+        "priority" : "low",
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 1048576,
+          "keyEquivalent" : "3"
+        },
+        "typeTravelTriggers" : [
+          "Event",
+          "3rd space"
+        ]
+      },
+      "source" : "userDefined",
+      "priority" : "low"
+    },
+    {
+      "default" : {
+        "shortcut" : {
+          "keyEquivalent" : "3",
+          "deviceIndependentModifierFlags" : 1048576
+        },
+        "priority" : "low",
+        "typeTravelTriggers" : [
+          "Go to Sidebar Item 3",
+          "3rd tab",
+          "3rd item"
+        ]
+      },
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 262144,
+            "keyEquivalent" : "3"
+          }
+        }
+      },
+      "source" : "userDefined",
+      "priority" : "low",
+      "action" : {
+        "identifier" : "item3",
+        "name" : "Go to Sidebar Item 3"
+      }
+    },
+    {
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 262144,
+            "keyEquivalent" : "5"
+          }
+        }
+      },
+      "action" : {
+        "name" : "Go to Sidebar Item 5",
+        "identifier" : "item5"
+      },
+      "priority" : "low",
+      "default" : {
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 1048576,
+          "keyEquivalent" : "5"
+        },
+        "priority" : "low",
+        "typeTravelTriggers" : [
+          "Go to Sidebar Item 5",
+          "5th tab",
+          "5th item"
+        ]
+      },
+      "source" : "userDefined"
+    },
+    {
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 262144,
+            "keyEquivalent" : "1"
+          }
+        }
+      },
+      "priority" : "low",
+      "action" : {
+        "identifier" : "item1",
+        "name" : "Go to Sidebar Item 1"
+      },
+      "default" : {
+        "typeTravelTriggers" : [
+          "Go to Sidebar Item 1",
+          "1st tab",
+          "1st item"
+        ],
+        "shortcut" : {
+          "keyEquivalent" : "1",
+          "deviceIndependentModifierFlags" : 1048576
+        },
+        "priority" : "low"
+      },
+      "source" : "userDefined"
+    },
+    {
+      "action" : {
+        "identifier" : "openTabIn",
+        "name" : "Open Little Arc or Peek in…"
+      },
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 1310720,
+            "keyEquivalent" : "↩"
+          }
+        }
+      },
+      "source" : "userDefined",
+      "default" : {
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 1048576,
+          "keyEquivalent" : "o"
+        },
+        "priority" : "promptAfterConsumedByWebView",
+        "typeTravelTriggers" : [
+          "Open Little Arc or Peek in…"
+        ]
+      },
+      "priority" : "promptAfterConsumedByWebView"
+    },
+    {
+      "source" : "userDefined",
+      "default" : {
+        "priority" : "promptAfterConsumedByWebView",
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 262144,
+          "keyEquivalent" : "d"
+        },
+        "typeTravelTriggers" : [
+          "Toggle Developer Mode",
+          "Developer Mode",
+          "Enable Developer Mode",
+          "Disable Developer Mode",
+          ""
+        ]
+      },
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 1310720,
+            "keyEquivalent" : "t"
+          }
+        }
+      },
+      "priority" : "promptAfterConsumedByWebView",
+      "action" : {
+        "name" : "Toggle Developer Mode",
+        "identifier" : "toggleDeveloperMode"
+      }
+    },
+    {
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "keyEquivalent" : "2",
+            "deviceIndependentModifierFlags" : 262144
+          }
+        }
+      },
+      "priority" : "low",
+      "action" : {
+        "name" : "Go to Sidebar Item 2",
+        "identifier" : "item2"
+      },
+      "source" : "userDefined",
+      "default" : {
+        "typeTravelTriggers" : [
+          "Go to Sidebar Item 2",
+          "2nd tab",
+          "2nd item"
+        ],
+        "priority" : "low",
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 1048576,
+          "keyEquivalent" : "2"
+        }
+      }
+    },
+    {
+      "action" : {
+        "identifier" : "space1",
+        "name" : "Person 2"
+      },
+      "priority" : "low",
+      "default" : {
+        "typeTravelTriggers" : [
+          "Person 2",
+          "1st space"
+        ],
+        "shortcut" : {
+          "keyEquivalent" : "1",
+          "deviceIndependentModifierFlags" : 1048576
+        },
+        "priority" : "low"
+      },
+      "source" : "userDefined",
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 1048576,
+            "keyEquivalent" : "1"
+          }
+        }
+      }
+    },
+    {
+      "default" : {
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 1048576,
+          "keyEquivalent" : "4"
+        },
+        "priority" : "low",
+        "typeTravelTriggers" : [
+          "Go to Sidebar Item 4",
+          "4th tab",
+          "4th item"
+        ]
+      },
+      "source" : "userDefined",
+      "action" : {
+        "identifier" : "item4",
+        "name" : "Go to Sidebar Item 4"
+      },
+      "priority" : "low",
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "keyEquivalent" : "4",
+            "deviceIndependentModifierFlags" : 262144
+          }
+        }
+      }
+    },
+    {
+      "source" : "userDefined",
+      "priority" : "overrideWebView",
+      "default" : {
+        "shortcut" : {
+          "keyEquivalent" : "c",
+          "deviceIndependentModifierFlags" : 1179648
+        },
+        "priority" : "overrideWebView",
+        "typeTravelTriggers" : [
+          "Copy URL",
+          "Copy Link"
+        ]
+      },
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "keyEquivalent" : "c",
+            "deviceIndependentModifierFlags" : 1310720
+          }
+        }
+      },
+      "action" : {
+        "identifier" : "copyCurrentURL",
+        "name" : "Copy URL"
+      }
+    },
+    {
+      "action" : {
+        "name" : "New Easel",
+        "identifier" : "newEasel"
+      },
+      "state" : {
+        "unset" : {
+
+        }
+      },
+      "default" : {
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 393216,
+          "keyEquivalent" : "e"
+        },
+        "priority" : "low",
+        "typeTravelTriggers" : [
+          "New Easel",
+          "Mood Board"
+        ]
+      },
+      "source" : "userDefined",
+      "priority" : "low"
+    },
+    {
+      "action" : {
+        "name" : "Add Split View",
+        "identifier" : "addSplitView"
+      },
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "keyEquivalent" : "=",
+            "deviceIndependentModifierFlags" : 1310720
+          }
+        }
+      },
+      "source" : "userDefined",
+      "priority" : "promptAfterConsumedByWebView",
+      "default" : {
+        "priority" : "promptAfterConsumedByWebView",
+        "typeTravelTriggers" : [
+          "Add Split View",
+          "Split View",
+          "Create Split View Pane",
+          "New Split View",
+          "Split"
+        ],
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 393216,
+          "keyEquivalent" : "="
+        }
+      }
+    },
+    {
+      "action" : {
+        "identifier" : "duplicate",
+        "name" : "Duplicate"
+      },
+      "source" : "userDefined",
+      "priority" : "low",
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 1048576,
+            "keyEquivalent" : "d"
+          }
+        }
+      }
+    },
+    {
+      "source" : "userDefined",
+      "priority" : "low",
+      "default" : {
+        "typeTravelTriggers" : [
+          "Go to last Sidebar Item",
+          "9th tab",
+          "9th item"
+        ],
+        "shortcut" : {
+          "keyEquivalent" : "9",
+          "deviceIndependentModifierFlags" : 1048576
+        },
+        "priority" : "low"
+      },
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 262144,
+            "keyEquivalent" : "9"
+          }
+        }
+      },
+      "action" : {
+        "name" : "Go to last Sidebar Item",
+        "identifier" : "item9"
+      }
+    },
+    {
+      "source" : "userDefined",
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "keyEquivalent" : "8",
+            "deviceIndependentModifierFlags" : 262144
+          }
+        }
+      },
+      "action" : {
+        "identifier" : "item8",
+        "name" : "Go to Sidebar Item 8"
+      },
+      "priority" : "low",
+      "default" : {
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 1048576,
+          "keyEquivalent" : "8"
+        },
+        "priority" : "low",
+        "typeTravelTriggers" : [
+          "Go to Sidebar Item 8",
+          "8th tab",
+          "8th item"
+        ]
+      }
+    },
+    {
+      "default" : {
+        "priority" : "low",
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 1048576,
+          "keyEquivalent" : "{"
+        },
+        "typeTravelTriggers" : [
+          "Previous Tab",
+          "Previous Item",
+          "Item Above",
+          "Tab Above"
+        ]
+      },
+      "priority" : "low",
+      "action" : {
+        "identifier" : "previousTab",
+        "name" : "Previous Tab"
+      },
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 1572864,
+            "keyEquivalent" : "←"
+          }
+        }
+      },
+      "source" : "userDefined"
+    },
+    {
+      "source" : "userDefined",
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 1310720,
+            "keyEquivalent" : "-"
+          }
+        }
+      },
+      "priority" : "promptAfterConsumedByWebView",
+      "action" : {
+        "name" : "Close this Split Pane",
+        "identifier" : "removeSplitView"
+      },
+      "default" : {
+        "priority" : "promptAfterConsumedByWebView",
+        "typeTravelTriggers" : [
+          "Close this Split Pane",
+          "Close Split View"
+        ],
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 393216,
+          "keyEquivalent" : "-"
+        }
+      }
+    },
+    {
+      "source" : "userDefined",
+      "action" : {
+        "name" : "Go to Sidebar Item 7",
+        "identifier" : "item7"
+      },
+      "priority" : "low",
+      "default" : {
+        "typeTravelTriggers" : [
+          "Go to Sidebar Item 7",
+          "7th tab",
+          "7th item"
+        ],
+        "shortcut" : {
+          "keyEquivalent" : "7",
+          "deviceIndependentModifierFlags" : 1048576
+        },
+        "priority" : "low"
+      },
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 262144,
+            "keyEquivalent" : "7"
+          }
+        }
+      }
+    },
+    {
+      "action" : {
+        "identifier" : "showSidebar",
+        "name" : "Show\/Hide Sidebar"
+      },
+      "source" : "userDefined",
+      "default" : {
+        "shortcut" : {
+          "keyEquivalent" : "s",
+          "deviceIndependentModifierFlags" : 1048576
+        },
+        "priority" : "promptAfterConsumedByWebView",
+        "typeTravelTriggers" : [
+          "Show\/Hide Sidebar",
+          "Toggle Sidebar",
+          ""
+        ]
+      },
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "keyEquivalent" : "b",
+            "deviceIndependentModifierFlags" : 1179648
+          }
+        }
+      },
+      "priority" : "promptAfterConsumedByWebView"
+    },
+    {
+      "source" : "userDefined",
+      "default" : {
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 1048576,
+          "keyEquivalent" : "d"
+        },
+        "priority" : "promptAfterConsumedByWebView",
+        "typeTravelTriggers" : [
+          "Pin\/Unpin Tab",
+          "save"
+        ]
+      },
+      "state" : {
+        "unset" : {
+
+        }
+      },
+      "action" : {
+        "identifier" : "pinTab",
+        "name" : "Pin\/Unpin Tab"
+      },
+      "priority" : "promptAfterConsumedByWebView"
+    },
+    {
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "keyEquivalent" : "↓",
+            "deviceIndependentModifierFlags" : 1310720
+          }
+        }
+      },
+      "action" : {
+        "identifier" : "focusPreviousSpace",
+        "name" : "Previous Space"
+      },
+      "default" : {
+        "shortcut" : {
+          "deviceIndependentModifierFlags" : 1572864,
+          "keyEquivalent" : "←"
+        },
+        "priority" : "low",
+        "typeTravelTriggers" : [
+          "Previous Space",
+          "Focus Previous Space"
+        ]
+      },
+      "source" : "userDefined",
+      "priority" : "low"
+    },
+    {
+      "state" : {
+        "valid" : {
+          "_0" : {
+            "deviceIndependentModifierFlags" : 1048576,
+            "keyEquivalent" : "4"
+          }
+        }
+      },
+      "priority" : "low",
+      "source" : "userDefined",
+      "action" : {
+        "name" : "Personal",
+        "identifier" : "space4"
+      }
+    }
+  ]
+}

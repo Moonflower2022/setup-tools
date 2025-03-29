@@ -9,11 +9,8 @@
     "git.openRepositoryInParentFolders": "never",
     "git.confirmSync": false,
     "editor.unicodeHighlight.invisibleCharacters": false,
-    "[lisp]": {
-        "editor.defaultFormatter": "Sir2B.lispbeautifier"
-    },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "mikoz.black-py"
     },
     "git.enableSmartCommit": true,
     "[html]": {
@@ -33,7 +30,6 @@
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "editor.defaultFormatter": "mikoz.black-py",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },

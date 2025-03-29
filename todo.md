@@ -1,12 +1,14 @@
 # todo for right now
 
--   finish download_apps.sh
--   make and do configure apps.sh
--   make and do mac_preferences.sh
+-   make and do configure_apps.sh
+    -   move the files to their locations
+    -   test that it works
 -   take away .sh
 -   make them executable
 
 # todo after running setup.sh
+
+download kindle from app store T_T
 
 ## thigns not added to macos_defaults
 

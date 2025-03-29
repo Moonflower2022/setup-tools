@@ -8,18 +8,19 @@ brew upgrade
 
 # APPLICATIONS
 
-brew install rectangle
-brew install obsidian
-brew install arc
-brew install visual-studio-code
-brew install discord
-brew install obs
-brew install omnidisksweeper
-brew install google-drive
-brew install karabiner-elements
-brew install iterm2
-brew install bitwarden
-brew install maccy
+brew install --cask rectangle
+brew install --cask obsidian
+brew install --cask arc
+brew install --cask visual-studio-code
+brew install --cask discord
+brew install --cask obs
+brew install --cask omnidisksweeper
+brew install --cask google-drive
+brew install --cask karabiner-elements
+brew install --cask iterm2
+brew install --cask bitwarden
+brew install --cask maccy
+brew install --cask appcleaner
 
 # COMMAND LINE TOOLS
 

@@ -1,19 +1,22 @@
 #!/bin/bash
 
-## MOUSE
+## TRACKPAD
 
-# sensitivity max (goes from 0 to 3)
-defaults write NSGlobalDomain com.apple.mouse.scaling -float "3"
+# sensitivity: float (min: 0, max: 3, default: 0.6875)
+defaults write -g com.apple.trackpad.scaling -float "3"
+
+# scroll speed: float (min: 0, max: 1, default: 0.1838)
+defaults write -g com.apple.trackpad.scrolling -float "1"
 
 ## KEYBOARD (these are only applied after restart T_T)
 
-# normal minimum is 15 (225 ms)
+# (min: 15, max: 120, default: 68)
 defaults write -g InitialKeyRepeat -int 15 
 
-# normal minimum is 2 (30 ms)
-defaults write -g KeyRepeat -int 30
+# (min: 2, max: 120, default: 5)
+defaults write -g KeyRepeat -int 2
 
-#$ TIME (MENU BAR?)
+## TIME (MENU BAR?)
 
 # set time to format as such: Thu 18 Aug 21:46:18
 defaults write com.apple.menuextra.clock "DateFormat" -string "\"EEE d MMM HH:mm:ss\""
@@ -28,8 +31,8 @@ defaults write com.apple.screencapture "include-date" -integer 0
 
 ## DOCK
 
-# make it take 1.5s for dock to show up
-defaults write com.apple.Dock autohide-delay -float "1.5"
+# make it take 1.5s for dock to show up (default: remove the "autohide-delay" tag from com.apple.docb) 
+defaults write com.apple.dock autohide-delay -float "1.5"
 
 
 ## HOT CORNERS
@@ -83,6 +86,12 @@ defaults write com.apple.finder "FXPreferredViewStyle" -string "clmv"
 
 ## KILLING
 
-killall SystemUIServer
-killall Dock
-killall Finder
+for app in "Activity Monitor" \
+	"cfprefsd" \
+	"Dock" \
+	"Finder" \
+	"Messages" \
+	"Photos" \
+	"SystemUIServer"; do
+	killall "${app}" &> /dev/null
+done

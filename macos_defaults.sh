@@ -1,12 +1,12 @@
 #!/bin/bash
 
-## TRACKPAD
+## TRACKPAD (these are only applied after restart T_T)
 
 # sensitivity: float (min: 0, max: 3, default: 0.6875)
-defaults write -g com.apple.trackpad.scaling -float "3"
+defaults write -g com.apple.trackpad.scaling -float 3.0
 
 # scroll speed: float (min: 0, max: 1, default: 0.1838)
-defaults write -g com.apple.trackpad.scrolling -float "1"
+defaults write -g com.apple.trackpad.scrolling -float 1.0
 
 ## KEYBOARD (these are only applied after restart T_T)
 

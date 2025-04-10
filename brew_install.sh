@@ -30,6 +30,7 @@ brew install ffmpeg
 brew install grep
 brew install sbcl
 brew install xclip
+brew install exiftool
 
 # Remove outdated versions from the cellar.
 brew cleanup

@@ -20,6 +20,8 @@ download kindle from app store T_T
 -   add login items
     -   rectangle
     -   google drive
+    -   maccy
+    -   bitwarden
 -   zoom (accessibility) Modifier key for scroll gesture: ^
     -   full screen
 -   defaults

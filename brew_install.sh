@@ -31,6 +31,7 @@ brew install grep
 brew install sbcl
 brew install xclip
 brew install exiftool
+brew install tree
 
 # Remove outdated versions from the cellar.
 brew cleanup

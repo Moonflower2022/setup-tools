@@ -32,7 +32,7 @@ defaults write com.apple.screencapture "include-date" -integer 0
 ## DOCK
 
 # make it take 1.5s for dock to show up (default: remove the "autohide-delay" tag from com.apple.docb) 
-defaults write com.apple.dock autohide-delay -float "1.5"
+defaults write com.apple.dock autohide-delay -float "0.5"
 
 
 ## HOT CORNERS

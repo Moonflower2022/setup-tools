@@ -32,6 +32,7 @@ brew install sbcl
 brew install xclip
 brew install exiftool
 brew install tree
+brew install hyperfine
 
 # Remove outdated versions from the cellar.
 brew cleanup

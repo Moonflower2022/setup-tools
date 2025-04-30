@@ -1,4 +1,5 @@
 html
+aif
 txt
 htm
 aspx

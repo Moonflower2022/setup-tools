@@ -1,0 +1,17 @@
+[extensions]
+md    = "Obsidian"
+pdf   = "Preview"
+aif   = "QuickTime Player"
+
+[schemes]
+web    = "Arc"
+
+[types]
+plain-text = "Visual Studio Code"
+sourcecode = "Visual Studio Code"
+audio      = "QuickTime Player"
+movie      = "QuickTime Player"
+video      = "QuickTime Player"
+text       = "TextEdit"
+
+# to run just do brew install infat; infat --config path/to/this_file.toml

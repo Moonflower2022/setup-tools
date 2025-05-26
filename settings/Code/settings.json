@@ -71,5 +71,6 @@
         "plaintext": false,
         "markdown": false,
         "scminput": false
-    }
+    },
+    "githubPullRequests.pullBranch": "never"
 }

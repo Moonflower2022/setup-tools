@@ -1,5 +1,6 @@
 [extensions]
 md = "Visual Studio Code"
+svelte = "Visual Studio Code"
 pdf   = "Preview"
 aif   = "QuickTime Player"
 

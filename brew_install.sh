@@ -21,6 +21,7 @@ brew install --cask iterm2
 brew install --cask bitwarden
 brew install --cask maccy
 brew install --cask appcleaner
+brew install --cask github
 
 # COMMAND LINE TOOLS
 

@@ -22,6 +22,7 @@ brew install --cask bitwarden
 brew install --cask maccy
 brew install --cask appcleaner
 brew install --cask github
+brew install --cask flux
 
 # COMMAND LINE TOOLS
 

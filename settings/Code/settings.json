@@ -65,7 +65,7 @@
     "[svelte]": {
         "editor.defaultFormatter": "svelte.svelte-vscode"
     },
-    "workbench.colorTheme": "Ayu Mirage",
+    "workbench.colorTheme": "Ayu Dark Bordered",
     "github.copilot.enable": {
         "*": false,
         "plaintext": false,

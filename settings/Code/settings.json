@@ -65,12 +65,13 @@
     "[svelte]": {
         "editor.defaultFormatter": "svelte.svelte-vscode"
     },
-    "workbench.colorTheme": "Ayu Dark Bordered",
+    "workbench.colorTheme": "Challenger Deep",
     "github.copilot.enable": {
         "*": false,
         "plaintext": false,
         "markdown": false,
         "scminput": false
     },
-    "githubPullRequests.pullBranch": "never"
+    "githubPullRequests.pullBranch": "never",
+    "editor.fontFamily": "Monaco, 'Courier New', monospace, 'Helvetica Neue', 'Cascadia Code', Menlo"
 }

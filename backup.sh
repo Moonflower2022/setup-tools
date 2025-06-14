@@ -23,3 +23,11 @@ cp "$ITERM_SETTINGS_PATH" "$BACKUP_DIR/settings"
 
 # APP ASSOCIATIONS
 ~/github_projects/setup-tools/app_associations/export_default_apps ~/github_projects/setup-tools/settings
+
+# PUSH TO GITHUB
+ORIGINAL_DIR=$(pwd)
+cd "$BACKUP_DIR"
+git add .
+git commit -m "update settings"
+git push
+cd "$ORIGINAL_DIR"

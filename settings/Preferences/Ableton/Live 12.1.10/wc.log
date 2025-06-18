@@ -1,0 +1,28 @@
+INFO:2025-04-13 15:44:56,184:abl.webconnector.main:Start
+INFO:2025-04-13 15:44:56,185:abl.webconnector.main:Cleanup event logs.
+INFO:2025-04-13 15:45:01,191:abl.webconnector.main:Upload info.
+INFO:2025-04-13 15:45:01,195:abl.webconnector.auto_updates:Checking for auto updates from 12.1.10 with tags ['mac-universal', 'trial']
+INFO:2025-04-13 15:45:02,052:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-04-13 15:45:02,052:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-04-13 15:45:02,197:abl.webconnector.main:End
+INFO:2025-04-14 09:23:13,217:abl.webconnector.main:Start
+INFO:2025-04-14 09:23:13,218:abl.webconnector.main:Cleanup event logs.
+INFO:2025-04-14 09:23:18,222:abl.webconnector.main:Upload info.
+INFO:2025-04-14 09:23:18,229:abl.webconnector.auto_updates:Checking for auto updates from 12.1.10 with tags ['mac-universal', 'trial']
+INFO:2025-04-14 09:23:19,047:abl.webconnector.auto_updates:Deltas found {'12.1.11': [{'name': 'ableton_live_trial_12.1.11_from_12.1.10_mac_universal.asu', 'checksum': 'e074c10a8a196a23352559a67bdfb6ee', 'version': 1}]}
+INFO:2025-04-14 09:23:19,048:abl.webconnector.auto_updates:Found update to 12.1.11
+INFO:2025-04-14 09:23:19,049:abl.webconnector.auto_updates:Update confirmed. Starting download...
+INFO:2025-04-14 09:23:19,052:abl.webconnector.tasks:Retrieving delta ableton_live_trial_12.1.11_from_12.1.10_mac_universal.asu
+INFO:2025-04-14 09:23:23,318:abl.webconnector.tasks:Delta retrieved, elapsed time: 4265ms
+INFO:2025-04-14 09:23:23,319:abl.webconnector.tasks:Preparing auto-update tasks
+INFO:2025-04-14 09:23:23,321:abl.webconnector.connector:Copy installation
+INFO:2025-04-14 09:23:56,504:abl.webconnector.connector:Copy installation completed (33182 ms)
+INFO:2025-04-14 09:23:56,506:abl.webconnector.connector:Update cloned installation
+INFO:2025-04-14 09:24:02,812:abl.webconnector.connector:Update cloned installation completed (6305 ms)
+INFO:2025-04-14 09:24:02,814:abl.webconnector.connector:Cleaning up file:///Users/harqian/Library/Application Support/Ableton/Live 12.1.10/_autoupdates/deltas
+INFO:2025-04-14 09:24:03,428:abl.webconnector.main:Notifying Live that the update is ready to apply
+INFO:2025-04-14 09:24:03,429:abl.webconnector.main:Waiting for Live to terminate
+INFO:2025-04-14 09:53:26,701:abl.webconnector.connector:Cleaning up file:///Users/harqian/Library/Application Support/Ableton/Live 12.1.10/_autoupdates
+INFO:2025-04-14 09:53:26,797:abl.webconnector.connector:Invoking swapper to apply update
+INFO:2025-04-14 09:53:26,844:abl.webconnector.connector:Swapper invoked with pid: 87751
+INFO:2025-04-14 09:53:26,844:abl.webconnector.main:End

@@ -1,0 +1,9 @@
+Lifetime	1	5
+MonitorInfoAppDelegate	1	5
+SVGNative.CSS	1	5
+SVGNative.Draw	1	5
+SVGNative.Parse	1	5
+drawbotagm	1	5
+dvacore.appstatemanager	1	5
+dvacore::Client	1	5
+dvacore::config::Initialize	1	5

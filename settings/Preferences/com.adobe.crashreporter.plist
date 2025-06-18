@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CRDialogShown_AIRobin_28.6.0_709</key>
+	<integer>0</integer>
+	<key>CRDialogShown_AIRobin_28.7.1_142</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Adobe Desktop Service_6.4.0_6.4.0.361</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Adobe Desktop Service_6.6.0_6.6.0.611</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Adobe Illustrator_28.6.0_709</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Adobe Illustrator_28.7.1_142</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Adobe Photoshop 2024_25.11.0_20240716.r.706</key>
+	<integer>0</integer>
+	<key>CRDialogShown_AdobeAcrobat_24.002.21005_24.002.21005</key>
+	<integer>0</integer>
+	<key>CRDialogShown_AdobeAcrobat_24.003.20121_24.003.20121</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Core Sync_7.2.0.58_7.2.0.58</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Core Sync_7.4.0.31_7.4.0.31</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud Content Manager.node_5.7.1_6</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud Content Manager.node_6.4.1_2</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud Helper_6.3.0_6.3.0.207</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud Helper_6.4.0_6.4.0.359</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud Helper_6.6.0_6.6.0.611</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud_6.3_6.3.0.207</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud_6.4_6.4.0.359</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud_6.6_6.6.0.611</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Dreamweaver_21.4.0_15620</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Setup_6.3_6.3.0.207</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Setup_6.6_6.6.0.611</key>
+	<integer>0</integer>
+	<key>SuppressCrash_AIRobin_28.6.0_709</key>
+	<integer>0</integer>
+	<key>SuppressCrash_AIRobin_28.7.1_142</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Adobe Desktop Service_6.4.0_6.4.0.361</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Adobe Desktop Service_6.6.0_6.6.0.611</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Adobe Illustrator_28.6.0_709</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Adobe Illustrator_28.7.1_142</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Adobe Photoshop 2024_25.11.0_20240716.r.706</key>
+	<integer>0</integer>
+	<key>SuppressCrash_AdobeAcrobat_24.002.21005_24.002.21005</key>
+	<integer>0</integer>
+	<key>SuppressCrash_AdobeAcrobat_24.003.20121_24.003.20121</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Core Sync_7.2.0.58_7.2.0.58</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Core Sync_7.4.0.31_7.4.0.31</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud Content Manager.node_5.7.1_6</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud Content Manager.node_6.4.1_2</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud Helper_6.3.0_6.3.0.207</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud Helper_6.4.0_6.4.0.359</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud Helper_6.6.0_6.6.0.611</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud_6.3_6.3.0.207</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud_6.4_6.4.0.359</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud_6.6_6.6.0.611</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Dreamweaver_21.4.0_15620</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Setup_6.3_6.3.0.207</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Setup_6.6_6.6.0.611</key>
+	<integer>0</integer>
+	<key>always_never_send</key>
+	<integer>0</integer>
+	<key>closeOnCRCNNotFoundFlag</key>
+	<integer>0</integer>
+	<key>guid_harqian</key>
+	<string>D21D3CBB-8961-4C76-899B-514B56452BF2</string>
+	<key>lastCrash_AIRobin_28.6.0_709</key>
+	<string>-1</string>
+	<key>lastCrash_AIRobin_28.7.1_142</key>
+	<string>-1</string>
+	<key>lastCrash_Adobe Desktop Service_6.3.0_6.3.0.207</key>
+	<string>-1</string>
+	<key>lastCrash_Adobe Desktop Service_6.4.0_6.4.0.361</key>
+	<string>-1</string>
+	<key>lastCrash_Adobe Desktop Service_6.6.0_6.6.0.611</key>
+	<string>-1</string>
+	<key>lastCrash_Adobe Illustrator_28.6.0_709</key>
+	<string>-1</string>
+	<key>lastCrash_Adobe Illustrator_28.7.1_142</key>
+	<string>-1</string>
+	<key>lastCrash_Adobe Photoshop 2024_25.11.0_20240716.r.706</key>
+	<string>-1</string>
+	<key>lastCrash_AdobeAcrobat_24.002.21005_24.002.21005</key>
+	<string>-1</string>
+	<key>lastCrash_AdobeAcrobat_24.003.20121_24.003.20121</key>
+	<string>-1</string>
+	<key>lastCrash_Core Sync_7.2.0.58_7.2.0.58</key>
+	<string>-1</string>
+	<key>lastCrash_Core Sync_7.4.0.31_7.4.0.31</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud Content Manager.node_5.7.1_6</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud Content Manager.node_6.4.1_2</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud Helper_6.3.0_6.3.0.207</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud Helper_6.4.0_6.4.0.359</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud Helper_6.6.0_6.6.0.611</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud_6.3_6.3.0.207</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud_6.4_6.4.0.359</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud_6.6_6.6.0.611</key>
+	<string>-1</string>
+	<key>lastCrash_Dreamweaver_21.4.0_15620</key>
+	<string>-1</string>
+	<key>lastCrash_Setup_6.3_6.3.0.207</key>
+	<string>-1</string>
+	<key>lastCrash_Setup_6.6_6.6.0.611</key>
+	<string>-1</string>
+	<key>productPreferences</key>
+	<dict>
+		<key>AIRobin;28.6.0;709</key>
+		<dict>
+			<key>AIRobin;28.6.0;709</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>AIRobin;28.7.1;142</key>
+		<dict>
+			<key>AIRobin;28.7.1;142</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Adobe Desktop Service;6.3.0;6.3.0.207</key>
+		<dict>
+			<key>Adobe Desktop Service;6.3.0;6.3.0.207</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Adobe Desktop Service;6.4.0;6.4.0.361</key>
+		<dict>
+			<key>Adobe Desktop Service;6.4.0;6.4.0.361</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Adobe Desktop Service;6.6.0;6.6.0.611</key>
+		<dict>
+			<key>Adobe Desktop Service;6.6.0;6.6.0.611</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Adobe Illustrator;28.6.0;709</key>
+		<dict>
+			<key>Adobe Illustrator;28.6.0;709</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Adobe Illustrator;28.7.1;142</key>
+		<dict>
+			<key>Adobe Illustrator;28.7.1;142</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Adobe Photoshop 2024;25.11.0;20240716.r.706</key>
+		<dict>
+			<key>Adobe Photoshop 2024;25.11.0;20240716.r.706</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>AdobeAcrobat;24.002.21005;24.002.21005</key>
+		<dict>
+			<key>AdobeAcrobat;24.002.21005;24.002.21005</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>AdobeAcrobat;24.003.20121;24.003.20121</key>
+		<dict>
+			<key>AdobeAcrobat;24.003.20121;24.003.20121</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Core Sync;7.2.0.58;7.2.0.58</key>
+		<dict>
+			<key>Core Sync;7.2.0.58;7.2.0.58</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Core Sync;7.4.0.31;7.4.0.31</key>
+		<dict>
+			<key>Core Sync;7.4.0.31;7.4.0.31</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud Content Manager.node;5.7.1;6</key>
+		<dict>
+			<key>Creative Cloud Content Manager.node;5.7.1;6</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud Content Manager.node;6.4.1;2</key>
+		<dict>
+			<key>Creative Cloud Content Manager.node;6.4.1;2</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud Helper;6.3.0;6.3.0.207</key>
+		<dict>
+			<key>Creative Cloud Helper;6.3.0;6.3.0.207</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud Helper;6.4.0;6.4.0.359</key>
+		<dict>
+			<key>Creative Cloud Helper;6.4.0;6.4.0.359</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud Helper;6.6.0;6.6.0.611</key>
+		<dict>
+			<key>Creative Cloud Helper;6.6.0;6.6.0.611</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud;6.3;6.3.0.207</key>
+		<dict>
+			<key>Creative Cloud;6.3;6.3.0.207</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud;6.4;6.4.0.359</key>
+		<dict>
+			<key>Creative Cloud;6.4;6.4.0.359</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud;6.6;6.6.0.611</key>
+		<dict>
+			<key>Creative Cloud;6.6;6.6.0.611</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Dreamweaver;21.4.0;15620</key>
+		<dict>
+			<key>Dreamweaver;21.4.0;15620</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Setup;6.3;6.3.0.207</key>
+		<dict>
+			<key>Setup;6.3;6.3.0.207</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Setup;6.6;6.6.0.611</key>
+		<dict>
+			<key>Setup;6.6;6.6.0.611</key>
+			<string>0_1_100</string>
+		</dict>
+	</dict>
+	<key>search_solution</key>
+	<integer>0</integer>
+</dict>
+</plist>

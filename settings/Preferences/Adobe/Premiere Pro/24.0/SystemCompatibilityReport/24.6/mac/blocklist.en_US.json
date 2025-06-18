@@ -1,0 +1,40 @@
+{
+	"blocklist_version": 1, 
+	"default_info": {
+		"OS": {
+			"info_message": "This version of your operating system is incompatible with your Adobe application.", 
+			"info_url": "https://helpx.adobe.com/premiere-pro/system-requirements/earlier-versions.html"
+		}, 
+		"Video": {
+			"info_message": "The current version of your video device software may cause issues with your Adobe application.", 
+			"info_url": "https://helpx.adobe.com/premiere-pro/system-requirements/earlier-versions.html"
+		}, 
+		"Audio": {
+			"info_message": "The current version of your audio device software may cause issues with your Adobe application.", 
+			"info_url": "https://helpx.adobe.com/premiere-pro/system-requirements/earlier-versions.html"
+		}, 
+		"Network": {
+			"info_message": "The current version of your network device software may cause issues with your Adobe application.", 
+			"info_url": "https://helpx.adobe.com/premiere-pro/system-requirements/earlier-versions.html"
+		}, 
+		"File": {
+			"info_message": "Your Adobe application references a third party component which is known to cause issues.", 
+			"info_url": "https://helpx.adobe.com/premiere-pro/system-requirements/earlier-versions.html"
+		}, 
+		"Property": {
+			"info_message": "Your Adobe application references a third party component which is known to cause issues.", 
+			"info_url": "https://helpx.adobe.com/premiere-pro/system-requirements/earlier-versions.html"
+		}
+	}, 
+	"blocklist": [
+		{
+			"type": "Property",
+			"name": "system.memory.installed_physical_mb",
+			"ilt": "7936",
+			"info_message": "Your system is equipped with less than 8GB of RAM.  To ensure a seamless experience with your Adobe application, ensure your computer satisfies the minimum system requirements. Falling short of these specifications may lead to suboptimal performance. For optimum performance, particularly for 4K media, follow the recommended system requirements.",
+			"info_url": "https://helpx.adobe.com/ie/x-productkb/multi/system-requirements-dva-apps.html",
+			"error_level": "WARN",
+			"issue_identifier": "jira:DVAAP-2145"
+		}
+	]
+}

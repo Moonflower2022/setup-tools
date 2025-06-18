@@ -1,0 +1,166 @@
+INFO:2025-04-14 12:50:45,159:abl.webconnector.main:Start
+INFO:2025-04-14 12:50:45,160:abl.webconnector.main:Cleanup event logs.
+INFO:2025-04-14 12:50:50,161:abl.webconnector.main:Upload info.
+INFO:2025-04-14 12:50:50,171:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-04-14 12:50:51,077:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-04-14 12:50:51,077:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-04-14 12:50:51,176:abl.webconnector.main:End
+INFO:2025-04-15 15:50:45,405:abl.webconnector.main:Start
+INFO:2025-04-15 15:50:45,419:abl.webconnector.main:Cleanup event logs.
+INFO:2025-04-15 15:50:50,425:abl.webconnector.main:Upload info.
+INFO:2025-04-15 15:50:50,432:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-04-15 15:50:51,216:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-04-15 15:50:51,216:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-04-15 15:50:51,437:abl.webconnector.main:End
+INFO:2025-04-16 10:24:48,605:abl.webconnector.main:Start
+INFO:2025-04-16 10:24:48,606:abl.webconnector.main:Cleanup event logs.
+INFO:2025-04-16 10:24:53,612:abl.webconnector.main:Upload info.
+INFO:2025-04-16 10:24:53,619:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-04-16 10:24:54,431:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-04-16 10:24:54,432:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-04-16 10:24:54,619:abl.webconnector.main:End
+INFO:2025-04-16 14:51:10,919:abl.webconnector.main:Start
+INFO:2025-04-16 14:51:10,931:abl.webconnector.main:Cleanup event logs.
+INFO:2025-04-16 14:51:15,933:abl.webconnector.main:Upload info.
+INFO:2025-04-16 14:51:15,944:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+ERROR:2025-04-16 14:53:45,963:abl.webconnector.main:Exception in worker thread
+Traceback (most recent call last):
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/main.py", line 70, in target
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/main.py", line 256, in check_for_auto_updates
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/connector.py", line 339, in check_and_process_auto_updates
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/auto_updates.py", line 28, in check_and_process_auto_updates
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/xmlrpcconnector.py", line 108, in check_for_auto_updates
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/xmlrpcconnector.py", line 75, in __call__
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/xmlrpc/client.py", line 1122, in __call__
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/xmlrpc/client.py", line 1464, in __request
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/xmlrpc/client.py", line 1166, in request
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/xmlrpc/client.py", line 1178, in single_request
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/xmlrpc/client.py", line 1291, in send_request
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/xmlrpc/client.py", line 1321, in send_content
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/http/client.py", line 1281, in endheaders
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/http/client.py", line 1041, in _send_output
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/http/client.py", line 979, in send
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/http/client.py", line 1458, in connect
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/ssl.py", line 517, in wrap_socket
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/ssl.py", line 1108, in _create
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/ssl.py", line 1379, in do_handshake
+ConnectionResetError: [Errno 54] Connection reset by peer
+ERROR:2025-04-16 14:53:46,574:abl.webconnector.main:[Errno 54] Connection reset by peer
+ERROR:2025-04-16 14:53:46,575:abl.webconnector.main:Traceback (most recent call last):
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/main.py", line 389, in main
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/main.py", line 268, in command_check_for_auto_updates
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/main.py", line 53, in wait_on_progress_or_live_termination
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/threading.py", line 1045, in _bootstrap_inner
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/threading.py", line 982, in run
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/main.py", line 70, in target
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/main.py", line 256, in check_for_auto_updates
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/connector.py", line 339, in check_and_process_auto_updates
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/auto_updates.py", line 28, in check_and_process_auto_updates
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/xmlrpcconnector.py", line 108, in check_for_auto_updates
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/xmlrpcconnector.py", line 75, in __call__
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/xmlrpc/client.py", line 1122, in __call__
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/xmlrpc/client.py", line 1464, in __request
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/xmlrpc/client.py", line 1166, in request
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/xmlrpc/client.py", line 1178, in single_request
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/xmlrpc/client.py", line 1291, in send_request
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/xmlrpc/client.py", line 1321, in send_content
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/http/client.py", line 1281, in endheaders
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/http/client.py", line 1041, in _send_output
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/http/client.py", line 979, in send
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/http/client.py", line 1458, in connect
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/ssl.py", line 517, in wrap_socket
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/ssl.py", line 1108, in _create
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/lib/ssl.py", line 1379, in do_handshake
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+INFO:2025-04-16 16:30:59,978:abl.webconnector.main:Start
+INFO:2025-04-16 16:30:59,979:abl.webconnector.main:No internet connection available, aborting. Connect to the internet or use the "directory_connection" configuration option to load local asu files
+ERROR:2025-04-16 16:30:59,979:abl.webconnector.main:
+ERROR:2025-04-16 16:30:59,979:abl.webconnector.main:Traceback (most recent call last):
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/main.py", line 373, in main
+SystemExit
+
+INFO:2025-04-17 09:10:23,630:abl.webconnector.main:Start
+INFO:2025-04-17 09:10:23,631:abl.webconnector.main:Cleanup event logs.
+INFO:2025-04-17 09:10:28,634:abl.webconnector.main:Upload info.
+INFO:2025-04-17 09:10:28,648:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-04-17 09:10:29,349:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-04-17 09:10:29,349:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-04-17 09:10:29,653:abl.webconnector.main:End
+INFO:2025-04-17 15:39:19,904:abl.webconnector.main:Start
+INFO:2025-04-17 15:39:19,906:abl.webconnector.main:Cleanup event logs.
+INFO:2025-04-17 15:39:24,912:abl.webconnector.main:Upload info.
+INFO:2025-04-17 15:39:24,926:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-04-17 15:39:25,557:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-04-17 15:39:25,557:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-04-17 15:39:25,931:abl.webconnector.main:End
+INFO:2025-04-18 18:28:43,898:abl.webconnector.main:Start
+INFO:2025-04-18 18:28:43,899:abl.webconnector.main:Cleanup event logs.
+INFO:2025-04-18 18:28:48,904:abl.webconnector.main:Upload info.
+INFO:2025-04-18 18:28:48,908:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-04-18 18:28:49,712:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-04-18 18:28:49,712:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-04-18 18:28:49,912:abl.webconnector.main:End
+INFO:2025-04-21 00:22:08,874:abl.webconnector.main:Start
+INFO:2025-04-21 00:22:08,875:abl.webconnector.main:Cleanup event logs.
+INFO:2025-04-21 00:22:13,876:abl.webconnector.main:Upload info.
+INFO:2025-04-21 00:22:13,891:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-04-21 00:22:14,670:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-04-21 00:22:14,670:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-04-21 00:22:14,896:abl.webconnector.main:End
+INFO:2025-04-30 20:11:24,901:abl.webconnector.main:Start
+INFO:2025-04-30 20:11:24,902:abl.webconnector.main:Cleanup event logs.
+INFO:2025-04-30 20:11:29,904:abl.webconnector.main:Upload info.
+INFO:2025-04-30 20:11:29,918:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-04-30 20:11:30,701:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-04-30 20:11:30,702:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-04-30 20:11:30,918:abl.webconnector.main:End
+INFO:2025-05-03 12:52:20,754:abl.webconnector.main:Start
+INFO:2025-05-03 12:52:20,755:abl.webconnector.main:No internet connection available, aborting. Connect to the internet or use the "directory_connection" configuration option to load local asu files
+ERROR:2025-05-03 12:52:20,755:abl.webconnector.main:
+ERROR:2025-05-03 12:52:20,755:abl.webconnector.main:Traceback (most recent call last):
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/main.py", line 373, in main
+SystemExit
+
+INFO:2025-05-04 17:26:08,793:abl.webconnector.main:Start
+INFO:2025-05-04 17:26:08,794:abl.webconnector.main:No internet connection available, aborting. Connect to the internet or use the "directory_connection" configuration option to load local asu files
+ERROR:2025-05-04 17:26:08,794:abl.webconnector.main:
+ERROR:2025-05-04 17:26:08,794:abl.webconnector.main:Traceback (most recent call last):
+  File "output/Live/mac_universal_64_static/Release/python-bundle/Python/abl.webconnector/abl/webconnector/main.py", line 373, in main
+SystemExit
+
+INFO:2025-05-10 10:27:19,310:abl.webconnector.main:Start
+INFO:2025-05-10 10:27:19,311:abl.webconnector.main:Cleanup event logs.
+INFO:2025-05-10 10:27:24,314:abl.webconnector.main:Upload info.
+INFO:2025-05-10 10:27:24,321:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-05-10 10:27:25,095:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-05-10 10:27:25,096:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-05-10 10:27:25,325:abl.webconnector.main:End
+INFO:2025-05-10 11:43:33,944:abl.webconnector.main:Start
+INFO:2025-05-10 11:43:33,945:abl.webconnector.main:Cleanup event logs.
+INFO:2025-05-10 11:43:38,951:abl.webconnector.main:Upload info.
+INFO:2025-05-10 11:43:38,974:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-05-10 11:43:39,785:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-05-10 11:43:39,785:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-05-10 11:43:39,979:abl.webconnector.main:End
+INFO:2025-05-11 20:25:03,858:abl.webconnector.main:Start
+INFO:2025-05-11 20:25:03,860:abl.webconnector.main:Cleanup event logs.
+INFO:2025-05-11 20:25:08,866:abl.webconnector.main:Upload info.
+INFO:2025-05-11 20:25:08,893:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-05-11 20:25:09,697:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-05-11 20:25:09,698:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-05-11 20:25:09,894:abl.webconnector.main:End
+INFO:2025-05-12 17:50:03,544:abl.webconnector.main:Start
+INFO:2025-05-12 17:50:03,545:abl.webconnector.main:Cleanup event logs.
+INFO:2025-05-12 17:50:08,548:abl.webconnector.main:Upload info.
+INFO:2025-05-12 17:50:08,558:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-05-12 17:50:09,354:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-05-12 17:50:09,354:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-05-12 17:50:09,560:abl.webconnector.main:End
+INFO:2025-05-12 21:11:40,999:abl.webconnector.main:Start
+INFO:2025-05-12 21:11:41,000:abl.webconnector.main:Cleanup event logs.
+INFO:2025-05-12 21:11:46,002:abl.webconnector.main:Upload info.
+INFO:2025-05-12 21:11:46,009:abl.webconnector.auto_updates:Checking for auto updates from 12.1.11 with tags ['mac-universal', 'trial']
+INFO:2025-05-12 21:11:46,664:abl.webconnector.auto_updates:Deltas found {}
+INFO:2025-05-12 21:11:46,664:abl.webconnector.auto_updates:No update found; terminating
+INFO:2025-05-12 21:11:47,014:abl.webconnector.main:End

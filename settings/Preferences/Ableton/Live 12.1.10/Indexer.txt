@@ -1,0 +1,339 @@
+2025-04-13T15:44:56.042943: info: #######################################
+2025-04-13T15:44:56.043118: info: Started: Index 12.1.10 Build: 2025-02-07_7b405e2e2b
+2025-04-13T15:44:56.043122: info: #######################################
+2025-04-13T15:44:56.043125: info: Init: Setup environment
+2025-04-13T15:44:56.043140: info: UUID: C8603243-49E8-3AEC-9763-B0E1904232F4
+2025-04-13T15:44:56.043634: info: Code ID: identifier "Ableton Index" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2025-04-13T15:44:56.043820: info: Init: Version: 'Index 12.1.10 Build: 2025-02-07_7b405e2e2b' 1179920
+2025-04-13T15:44:56.043824: info: Init: BuildRevisions: 7b405e2e2bc522b663cf3b6df9e9943e4fcda288
+2025-04-13T15:44:56.043827: info: Init: Commit ID: '7b405e2e2bc522b663cf3b6df9e9943e4fcda288'
+2025-04-13T15:44:56.044704: info: Init: OS: 'macOS 14.5.0 (23F79), Arch:arm64'
+2025-04-13T15:44:56.044713: info: Init: BuildType: 'Release'
+2025-04-13T15:44:56.044717: info: Init: Pid: 75277
+2025-04-13T15:44:56.044735: info: Init: Hardware Model: 'Mac14,7'
+2025-04-13T15:44:56.044742: info: Init: CPU Brand String: 'Apple M2'
+2025-04-13T15:44:56.044746: info: Init: CPU Count: 8
+2025-04-13T15:44:56.044789: info: Init: Physical RAM: 17179869184 B
+2025-04-13T15:44:56.044793: info: Init: Address Space: 18446744073709551615 B
+2025-04-13T15:44:56.044796: info: Init: 64-bit Edition
+2025-04-13T15:44:56.115478: info: Init: Checksum 1: cf147a86355646684cdcc54c9c13e69e
+2025-04-13T15:44:56.141909: info: Init: Checksum 2: 38c6d65f9ceb0912441559da91e6748b
+2025-04-13T15:44:56.172217: info: Init: Checksum 3: 38c6d65f9ceb0912441559da91e6748b
+2025-04-13T15:44:56.172322: info: Licensing: [Variant=Beta]
+2025-04-13T15:44:56.172923: info: Net: Setting up connection framework
+2025-04-13T15:44:56.172930: info: Metadata: Initialize XMP system
+2025-04-13T15:44:56.175685: info: SoundAnalyzer: Enabled
+2025-04-13T15:44:56.175691: info: Auto Keyword Extraction: Enabled
+2025-04-13T15:44:56.177148: info: App resources: "/Applications/Ableton Live 12 Trial.app/Contents/App-Resources"
+2025-04-13T15:44:56.177198: info: Database: Open database '/Users/harqian/Library/Application Support/Ableton/Live Database/Live-files-12107.db' (key: SQL[2], sqlite 3.43.0)
+2025-04-13T15:44:56.182660: info: Database: Open database '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.43.0)
+2025-04-13T15:46:27.553168: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T15:46:27.553333: info: Configure: UserFolders: 
+2025-04-13T15:46:27.553340: info: Configure: ManagedFolders: 
+2025-04-13T15:46:27.553343: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T15:46:27.553346: info: Configure: LegacyFactoryPacks: 
+2025-04-13T15:46:27.553351: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T15:46:27.553355: info: Configure: CurrentProject: '/Users/harqian/Music/Ableton/Live Recordings/2025-04-13 154452 Temp Project' [Current Project]
+2025-04-13T15:46:27.553359: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T15:46:27.558527: info: Configuring places: Time elapsed: 1
+2025-04-13T15:46:27.559593: info: Database: Cleanup keywords: 0 ms
+2025-04-13T15:46:27.559621: info: Database: Cleanup ancestors: 0 ms
+2025-04-13T15:46:27.559965: info: DatabaseGC: Cleanup of inherited, unusable builtin content: 0ms
+2025-04-13T15:46:27.560065: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library" from being garbage-collected
+2025-04-13T15:46:27.560123: info: DatabaseGC: Marking unused files. Time: 0
+2025-04-13T15:46:27.560150: info: DatabaseStats: Live files: 39
+2025-04-13T15:46:27.560153: info: DatabaseStats: Dead files: 0
+2025-04-13T15:46:27.560156: info: DatabaseStats: Ancestors count: 204
+2025-04-13T15:46:27.560164: info: DatabaseStats: Number of metadata-file relations: 4
+2025-04-13T15:46:27.560166: info: DatabaseStats: Number of metadata values: 4
+2025-04-13T15:46:27.560168: info: DatabaseStats: Places count: 6
+2025-04-13T15:46:27.560170: info: DatabaseStats: Features count: 0
+2025-04-13T15:46:27.560172: info: DatabaseStats: Keyword assignments: 0
+2025-04-13T15:46:27.560173: info: DatabaseStats: Devices: 0
+2025-04-13T15:46:27.560175: info: DatabaseStats: File-device relations count: 0
+2025-04-13T15:46:40.494160: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T15:46:40.494322: info: Configure: UserFolders: 
+2025-04-13T15:46:40.494328: info: Configure: ManagedFolders: 
+2025-04-13T15:46:40.494332: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T15:46:40.494335: info: Configure: LegacyFactoryPacks: 
+2025-04-13T15:46:40.494340: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T15:46:40.494344: info: Configure: CurrentProject: '/Users/harqian/Music/Ableton/Live Recordings/2025-04-13 154638 Temp Project' [Current Project]
+2025-04-13T15:46:40.494348: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T15:46:40.510922: info: Configuring places: Time elapsed: 16
+2025-04-13T15:46:40.515345: info: Database: Cleanup keywords: 3 ms
+2025-04-13T15:46:40.520375: info: Database: Cleanup ancestors: 5 ms
+2025-04-13T15:46:40.816092: info: Starting scan, Reason: Live, Event ID: 5, All Folders?: true
+2025-04-13T15:46:41.264277: info: Start extraction, Event ID: 5
+2025-04-13T15:46:43.956489: info: Starting scan, Reason: OS Events, Folders: /Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false),/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false)
+2025-04-13T15:46:43.964401: info: Start extraction, Event ID: 1073741823
+2025-04-13T15:46:48.694580: info: SoundAnalyzer: Skipping file (Analyzed file-section silent): "/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library/Samples/One Shots/Drums/Utility/Silent.aif"
+2025-04-13T15:46:59.254972: info: SoundAnalyzer: Skipping file (Unsupported file length): "/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library/Samples/Multisamples/Upright Home Piano/Upright Home Piano Keys Clacking Noises.aif"
+2025-04-13T15:47:02.100868: info: SoundAnalyzer: Skipping file (Unsupported file length): "/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library/Samples/Loops/Tonal/Vocal/Vocal Demo Lead Takes.aif"
+2025-04-13T15:47:02.555913: info: SoundAnalyzer: Skipping file (Unsupported file length): "/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library/Samples/Loops/Texture/Rain and Train.wav"
+2025-04-13T15:48:38.519330: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T15:48:38.519484: info: Configure: UserFolders: 
+2025-04-13T15:48:38.519490: info: Configure: ManagedFolders: 
+2025-04-13T15:48:38.519493: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T15:48:38.519496: info: Configure: LegacyFactoryPacks: 
+2025-04-13T15:48:38.519501: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T15:48:38.519505: info: Configure: CurrentProject: '/Users/harqian/Music/Ableton/Live Recordings/2025-04-13 154837 Temp Project' [Current Project]
+2025-04-13T15:48:38.519509: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T15:48:38.540608: info: Configuring places: Time elapsed: 21
+2025-04-13T15:48:38.546818: info: Database: Cleanup keywords: 5 ms
+2025-04-13T15:48:38.553539: info: Database: Cleanup ancestors: 7 ms
+2025-04-13T15:52:33.201697: info: Starting scan, Reason: Live, Event ID: 10, All Folders?: false
+2025-04-13T15:52:33.202827: info: Starting scan, Reason: Live, Event ID: 12, All Folders?: false
+2025-04-13T16:12:09.789446: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T16:12:09.789794: info: Configure: UserFolders: 
+2025-04-13T16:12:09.789799: info: Configure: ManagedFolders: 
+2025-04-13T16:12:09.789802: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T16:12:09.789804: info: Configure: LegacyFactoryPacks: 
+2025-04-13T16:12:09.789808: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T16:12:09.789811: info: Configure: CurrentProject: '/Users/harqian/Downloads/Week12 Project' [Current Project]
+2025-04-13T16:12:09.789815: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T16:12:09.823375: info: Configuring places: Time elapsed: 32
+2025-04-13T16:12:09.833699: info: Database: Cleanup keywords: 10 ms
+2025-04-13T16:12:09.845162: info: Database: Cleanup ancestors: 11 ms
+2025-04-13T16:12:25.361287: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T16:12:25.361315: info: Configure: UserFolders: 
+2025-04-13T16:12:25.361319: info: Configure: ManagedFolders: 
+2025-04-13T16:12:25.361322: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T16:12:25.361325: info: Configure: LegacyFactoryPacks: 
+2025-04-13T16:12:25.361329: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T16:12:25.361333: info: Configure: CurrentProject: '' [Current Project]
+2025-04-13T16:12:25.361337: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T16:12:25.378416: info: Configuring places: Time elapsed: 17
+2025-04-13T16:12:25.383544: info: Database: Cleanup keywords: 5 ms
+2025-04-13T16:12:25.389451: info: Database: Cleanup ancestors: 6 ms
+2025-04-13T16:12:25.389590: info: Starting scan, Reason: Live, Event ID: 17, All Folders?: false
+2025-04-13T16:12:25.390279: info: Start extraction, Event ID: 17
+2025-04-13T16:12:25.960598: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T16:12:25.960618: info: Configure: UserFolders: 
+2025-04-13T16:12:25.960622: info: Configure: ManagedFolders: 
+2025-04-13T16:12:25.960625: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T16:12:25.960628: info: Configure: LegacyFactoryPacks: 
+2025-04-13T16:12:25.960632: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T16:12:25.960636: info: Configure: CurrentProject: '/Users/harqian/Downloads/Week Project' [Current Project]
+2025-04-13T16:12:25.960640: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T16:12:25.977506: info: Configuring places: Time elapsed: 17
+2025-04-13T16:12:25.983548: info: Database: Cleanup keywords: 6 ms
+2025-04-13T16:12:25.989447: info: Database: Cleanup ancestors: 6 ms
+2025-04-13T16:12:32.276839: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T16:12:32.276884: info: Configure: UserFolders: 
+2025-04-13T16:12:32.276895: info: Configure: ManagedFolders: 
+2025-04-13T16:12:32.276898: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T16:12:32.276902: info: Configure: LegacyFactoryPacks: 
+2025-04-13T16:12:32.276908: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T16:12:32.276912: info: Configure: CurrentProject: '' [Current Project]
+2025-04-13T16:12:32.276917: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T16:12:32.293131: info: Configuring places: Time elapsed: 15
+2025-04-13T16:12:32.298470: info: Database: Cleanup keywords: 5 ms
+2025-04-13T16:12:32.304041: info: Database: Cleanup ancestors: 5 ms
+2025-04-13T16:12:32.304312: info: Starting scan, Reason: Live, Event ID: 20, All Folders?: false
+2025-04-13T16:12:32.305036: info: Starting scan, Reason: OS Events, Folders: /Users/harqian/Downloads/Week Project/ (Recursive=false)
+2025-04-13T16:12:32.305332: info: Start extraction, Event ID: 1073741823
+2025-04-13T16:12:32.306223: info: Start extraction, Event ID: 20
+2025-04-13T16:12:32.575267: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T16:12:32.575279: info: Configure: UserFolders: 
+2025-04-13T16:12:32.575282: info: Configure: ManagedFolders: 
+2025-04-13T16:12:32.575284: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T16:12:32.575287: info: Configure: LegacyFactoryPacks: 
+2025-04-13T16:12:32.575290: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T16:12:32.575293: info: Configure: CurrentProject: '/Users/harqian/Downloads/Week Project' [Current Project]
+2025-04-13T16:12:32.575296: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T16:12:32.589596: info: Configuring places: Time elapsed: 14
+2025-04-13T16:12:32.594644: info: Database: Cleanup keywords: 5 ms
+2025-04-13T16:12:32.599603: info: Database: Cleanup ancestors: 5 ms
+2025-04-13T16:12:40.416828: info: Starting scan, Reason: OS Events, Folders: /Users/harqian/Downloads/Week Project/ (Recursive=false),/Users/harqian/Downloads/Week Project/ (Recursive=false)
+2025-04-13T16:12:40.417430: info: Start extraction, Event ID: 1073741823
+2025-04-13T16:12:40.633536: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T16:12:40.633561: info: Configure: UserFolders: 
+2025-04-13T16:12:40.633564: info: Configure: ManagedFolders: 
+2025-04-13T16:12:40.633567: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T16:12:40.633569: info: Configure: LegacyFactoryPacks: 
+2025-04-13T16:12:40.633572: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T16:12:40.633575: info: Configure: CurrentProject: '' [Current Project]
+2025-04-13T16:12:40.633579: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T16:12:40.648948: info: Configuring places: Time elapsed: 15
+2025-04-13T16:12:40.654301: info: Database: Cleanup keywords: 4 ms
+2025-04-13T16:12:40.659781: info: Database: Cleanup ancestors: 5 ms
+2025-04-13T16:12:40.659969: info: Starting scan, Reason: Live, Event ID: 23, All Folders?: false
+2025-04-13T16:12:40.979707: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T16:12:40.979719: info: Configure: UserFolders: 
+2025-04-13T16:12:40.979722: info: Configure: ManagedFolders: 
+2025-04-13T16:12:40.979724: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T16:12:40.979725: info: Configure: LegacyFactoryPacks: 
+2025-04-13T16:12:40.979729: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T16:12:40.979731: info: Configure: CurrentProject: '/Users/harqian/Downloads/Week Project' [Current Project]
+2025-04-13T16:12:40.979734: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T16:12:40.998345: info: Configuring places: Time elapsed: 18
+2025-04-13T16:12:41.004094: info: Database: Cleanup keywords: 5 ms
+2025-04-13T16:12:41.009368: info: Database: Cleanup ancestors: 6 ms
+2025-04-13T16:12:44.496856: info: Starting scan, Reason: OS Events, Folders: /Users/harqian/Downloads/Week Project/ (Recursive=false),/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false),/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false)
+2025-04-13T16:12:44.519927: info: Start extraction, Event ID: 1073741823
+2025-04-13T16:13:50.090076: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T16:13:50.090238: info: Configure: UserFolders: 
+2025-04-13T16:13:50.090248: info: Configure: ManagedFolders: 
+2025-04-13T16:13:50.090252: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T16:13:50.090254: info: Configure: LegacyFactoryPacks: 
+2025-04-13T16:13:50.090259: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T16:13:50.090264: info: Configure: CurrentProject: '' [Current Project]
+2025-04-13T16:13:50.090268: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T16:13:50.147335: info: Configuring places: Time elapsed: 56
+2025-04-13T16:13:50.163611: info: Database: Cleanup keywords: 16 ms
+2025-04-13T16:13:50.176649: info: Database: Cleanup ancestors: 13 ms
+2025-04-13T16:13:50.176995: info: Starting scan, Reason: Live, Event ID: 26, All Folders?: false
+2025-04-13T16:13:50.177457: info: Start extraction, Event ID: 26
+2025-04-13T16:13:50.294275: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T16:13:50.294292: info: Configure: UserFolders: 
+2025-04-13T16:13:50.294296: info: Configure: ManagedFolders: 
+2025-04-13T16:13:50.294299: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T16:13:50.294302: info: Configure: LegacyFactoryPacks: 
+2025-04-13T16:13:50.294307: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T16:13:50.294310: info: Configure: CurrentProject: '/Users/harqian/Downloads/Week12 Project' [Current Project]
+2025-04-13T16:13:50.294314: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T16:13:50.309069: info: Configuring places: Time elapsed: 14
+2025-04-13T16:13:50.314143: info: Database: Cleanup keywords: 5 ms
+2025-04-13T16:13:50.319470: info: Database: Cleanup ancestors: 5 ms
+2025-04-13T18:20:25.475044: info: Starting scan, Reason: OS Events, Folders: /Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false)
+2025-04-13T18:20:25.489472: info: Start extraction, Event ID: 1073741823
+2025-04-13T18:21:12.353630: info: Starting scan, Reason: OS Events, Folders: /Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false)
+2025-04-13T18:21:12.365649: info: Start extraction, Event ID: 1073741823
+2025-04-13T18:25:08.625920: info: Starting scan, Reason: OS Events, Folders: /Users/harqian/Downloads/Week12 Project/ (Recursive=false),/Users/harqian/Downloads/Week12 Project/ (Recursive=false),/Users/harqian/Downloads/Week12 Project/Backup/ (Recursive=false),/Users/harqian/Downloads/Week12 Project/ (Recursive=false)
+2025-04-13T18:25:08.631188: info: Start extraction, Event ID: 1073741823
+2025-04-13T19:12:03.910675: info: Starting scan, Reason: OS Events, Folders: /Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false)
+2025-04-13T19:12:03.925269: info: Start extraction, Event ID: 1073741823
+2025-04-13T22:32:58.057222: info: Starting scan, Reason: OS Events, Folders: /Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false),/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false)
+2025-04-13T22:32:58.083897: info: Start extraction, Event ID: 1073741823
+2025-04-13T22:55:51.750031: info: Starting scan, Reason: Live, Event ID: 36, All Folders?: false
+2025-04-13T22:55:51.752350: info: Starting scan, Reason: Live, Event ID: 38, All Folders?: false
+2025-04-13T22:56:00.949583: info: Starting scan, Reason: Live, Event ID: 44, All Folders?: false
+2025-04-13T22:56:00.950039: info: Starting scan, Reason: Live, Event ID: 46, All Folders?: false
+2025-04-13T22:57:17.047621: info: Starting scan, Reason: Live, Event ID: 50, All Folders?: false
+2025-04-13T22:57:17.047845: info: Starting scan, Reason: Live, Event ID: 52, All Folders?: false
+2025-04-13T23:11:05.131173: info: Starting scan, Reason: OS Events, Folders: /Users/harqian/Music/Ableton/User Library/ (Recursive=false)
+2025-04-13T23:11:05.140679: info: Start extraction, Event ID: 1073741823
+2025-04-13T23:53:37.572335: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T23:53:37.572688: info: Configure: UserFolders: 
+2025-04-13T23:53:37.572696: info: Configure: ManagedFolders: 
+2025-04-13T23:53:37.572700: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T23:53:37.572704: info: Configure: LegacyFactoryPacks: 
+2025-04-13T23:53:37.572709: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T23:53:37.572713: info: Configure: CurrentProject: '/Users/harqian/Desktop/Week12-1 Project' [Current Project]
+2025-04-13T23:53:37.572725: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T23:53:37.609481: info: Configuring places: Time elapsed: 34
+2025-04-13T23:53:37.630520: info: Database: Cleanup keywords: 20 ms
+2025-04-13T23:53:37.642099: info: Database: Cleanup ancestors: 12 ms
+2025-04-13T23:54:04.443395: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-13T23:54:04.443562: info: Configure: UserFolders: 
+2025-04-13T23:54:04.443573: info: Configure: ManagedFolders: 
+2025-04-13T23:54:04.443578: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-13T23:54:04.443581: info: Configure: LegacyFactoryPacks: 
+2025-04-13T23:54:04.443585: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-13T23:54:04.443589: info: Configure: CurrentProject: '/Users/harqian/Desktop/Week12 Project' [Current Project]
+2025-04-13T23:54:04.443593: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-13T23:54:04.474558: info: Configuring places: Time elapsed: 31
+2025-04-13T23:54:04.489553: info: Database: Cleanup keywords: 14 ms
+2025-04-13T23:54:04.500705: info: Database: Cleanup ancestors: 11 ms
+2025-04-14T00:00:16.908128: info: Shutdown request from Live
+2025-04-14T00:00:17.440613: info: Database: Cleanup metadata: 41 ms
+2025-04-14T00:00:17.454370: info: Database: Cleanup search aggregation: 14 ms
+2025-04-14T09:23:13.052519: info: #######################################
+2025-04-14T09:23:13.052812: info: Started: Index 12.1.10 Build: 2025-02-07_7b405e2e2b
+2025-04-14T09:23:13.052818: info: #######################################
+2025-04-14T09:23:13.052821: info: Init: Setup environment
+2025-04-14T09:23:13.052836: info: UUID: C8603243-49E8-3AEC-9763-B0E1904232F4
+2025-04-14T09:23:13.053826: info: Code ID: identifier "Ableton Index" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2025-04-14T09:23:13.053985: info: Init: Version: 'Index 12.1.10 Build: 2025-02-07_7b405e2e2b' 1179920
+2025-04-14T09:23:13.053990: info: Init: BuildRevisions: 7b405e2e2bc522b663cf3b6df9e9943e4fcda288
+2025-04-14T09:23:13.053994: info: Init: Commit ID: '7b405e2e2bc522b663cf3b6df9e9943e4fcda288'
+2025-04-14T09:23:13.054759: info: Init: OS: 'macOS 14.5.0 (23F79), Arch:arm64'
+2025-04-14T09:23:13.054766: info: Init: BuildType: 'Release'
+2025-04-14T09:23:13.054769: info: Init: Pid: 87425
+2025-04-14T09:23:13.054787: info: Init: Hardware Model: 'Mac14,7'
+2025-04-14T09:23:13.054793: info: Init: CPU Brand String: 'Apple M2'
+2025-04-14T09:23:13.054796: info: Init: CPU Count: 8
+2025-04-14T09:23:13.054834: info: Init: Physical RAM: 17179869184 B
+2025-04-14T09:23:13.054845: info: Init: Address Space: 18446744073709551615 B
+2025-04-14T09:23:13.054847: info: Init: 64-bit Edition
+2025-04-14T09:23:13.135975: info: Init: Checksum 1: cf147a86355646684cdcc54c9c13e69e
+2025-04-14T09:23:13.162444: info: Init: Checksum 2: 38c6d65f9ceb0912441559da91e6748b
+2025-04-14T09:23:13.192788: info: Init: Checksum 3: 38c6d65f9ceb0912441559da91e6748b
+2025-04-14T09:23:13.192920: info: Licensing: [Variant=Beta]
+2025-04-14T09:23:13.193434: info: Net: Setting up connection framework
+2025-04-14T09:23:13.193438: info: Metadata: Initialize XMP system
+2025-04-14T09:23:13.197623: info: SoundAnalyzer: Enabled
+2025-04-14T09:23:13.197629: info: Auto Keyword Extraction: Enabled
+2025-04-14T09:23:13.198997: info: App resources: "/Applications/Ableton Live 12 Trial.app/Contents/App-Resources"
+2025-04-14T09:23:13.199033: info: Database: Open database '/Users/harqian/Library/Application Support/Ableton/Live Database/Live-files-12107.db' (key: SQL[2], sqlite 3.43.0)
+2025-04-14T09:23:13.205469: info: Database: Open database '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.43.0)
+2025-04-14T09:23:13.956757: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-14T09:23:13.956785: info: Configure: UserFolders: 
+2025-04-14T09:23:13.956791: info: Configure: ManagedFolders: 
+2025-04-14T09:23:13.956796: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-14T09:23:13.956801: info: Configure: LegacyFactoryPacks: 
+2025-04-14T09:23:13.956807: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-14T09:23:13.956813: info: Configure: CurrentProject: '/Users/harqian/Music/Ableton/Live Recordings/2025-04-14 092311 Temp Project' [Current Project]
+2025-04-14T09:23:13.956820: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-14T09:23:14.016983: info: Configuring places: Time elapsed: 43
+2025-04-14T09:23:14.041744: info: Database: Cleanup keywords: 10 ms
+2025-04-14T09:23:14.051291: info: Database: Cleanup ancestors: 9 ms
+2025-04-14T09:23:14.061061: info: DatabaseGC: Cleanup of inherited, unusable builtin content: 1ms
+2025-04-14T09:23:14.068754: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library" from being garbage-collected
+2025-04-14T09:23:14.078612: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin" from being garbage-collected
+2025-04-14T09:23:14.080306: info: DatabaseGC: Marking unused files. Time: 19
+2025-04-14T09:23:14.083468: info: DatabaseStats: Live files: 9310
+2025-04-14T09:23:14.083470: info: DatabaseStats: Dead files: 21
+2025-04-14T09:23:14.083472: info: DatabaseStats: Ancestors count: 86153
+2025-04-14T09:23:14.083474: info: DatabaseStats: Number of metadata-file relations: 40688
+2025-04-14T09:23:14.083476: info: DatabaseStats: Number of metadata values: 911
+2025-04-14T09:23:14.083478: info: DatabaseStats: Places count: 5
+2025-04-14T09:23:14.083479: info: DatabaseStats: Features count: 5897
+2025-04-14T09:23:14.083481: info: DatabaseStats: Keyword assignments: 19751
+2025-04-14T09:23:14.083483: info: DatabaseStats: Devices: 96
+2025-04-14T09:23:14.083484: info: DatabaseStats: File-device relations count: 4307
+2025-04-14T09:23:14.083523: info: Starting scan, Reason: Live, Event ID: 2, All Folders?: false
+2025-04-14T09:23:14.083566: info: Starting scan, Reason: Live, Event ID: 4, All Folders?: false
+2025-04-14T09:23:24.084697: info: DatabaseGC: Beginning sweep.
+2025-04-14T09:23:34.286525: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-14T09:23:34.286646: info: Configure: UserFolders: 
+2025-04-14T09:23:34.286652: info: Configure: ManagedFolders: 
+2025-04-14T09:23:34.286660: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-14T09:23:34.286663: info: Configure: LegacyFactoryPacks: 
+2025-04-14T09:23:34.286680: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-14T09:23:34.286685: info: Configure: CurrentProject: '/Users/harqian/Music/Ableton/Live Recordings/2025-04-14 092311 Temp Project' [Current Project]
+2025-04-14T09:23:34.286689: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-14T09:23:34.304974: info: Configuring places: Time elapsed: 17
+2025-04-14T09:23:34.318502: info: Database: Cleanup keywords: 13 ms
+2025-04-14T09:23:34.326842: info: Database: Cleanup ancestors: 9 ms
+2025-04-14T09:23:34.428694: info: Starting scan, Reason: Live, Event ID: 7, All Folders?: true
+2025-04-14T09:23:35.086057: info: Start extraction, Event ID: 7
+2025-04-14T09:23:44.545390: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-14T09:23:44.545720: info: Configure: UserFolders: 
+2025-04-14T09:23:44.545725: info: Configure: ManagedFolders: 
+2025-04-14T09:23:44.545729: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-14T09:23:44.545732: info: Configure: LegacyFactoryPacks: 
+2025-04-14T09:23:44.545750: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-14T09:23:44.545755: info: Configure: CurrentProject: '' [Current Project]
+2025-04-14T09:23:44.545760: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-14T09:23:44.587957: info: Configuring places: Time elapsed: 41
+2025-04-14T09:23:44.615779: info: Database: Cleanup keywords: 28 ms
+2025-04-14T09:23:44.633393: info: Database: Cleanup ancestors: 17 ms
+2025-04-14T09:23:44.633531: info: Starting scan, Reason: Live, Event ID: 9, All Folders?: false
+2025-04-14T09:23:44.633955: info: Start extraction, Event ID: 9
+2025-04-14T09:23:44.746624: info: Configure: FactoryPacks: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Core Library' [Core Library]
+2025-04-14T09:23:44.746636: info: Configure: UserFolders: 
+2025-04-14T09:23:44.746640: info: Configure: ManagedFolders: 
+2025-04-14T09:23:44.746643: info: Configure: PlacesOnlyManagedFolders: 
+2025-04-14T09:23:44.746645: info: Configure: LegacyFactoryPacks: 
+2025-04-14T09:23:44.746651: info: Configure: UserLibrary: '/Users/harqian/Music/Ableton/User Library' [User Library]
+2025-04-14T09:23:44.746655: info: Configure: CurrentProject: '/Users/harqian/Desktop/Week12 Project' [Current Project]
+2025-04-14T09:23:44.746659: info: Configure: Builtin: '/Applications/Ableton Live 12 Trial.app/Contents/App-Resources/Builtin' [Built-in]
+2025-04-14T09:23:44.763346: info: Configuring places: Time elapsed: 16
+2025-04-14T09:23:44.768973: info: Database: Cleanup keywords: 5 ms
+2025-04-14T09:23:44.774184: info: Database: Cleanup ancestors: 5 ms
+2025-04-14T09:23:54.755445: info: DatabaseGC: Still sweeping... Number of iterations: 4, Longest run: 269
+2025-04-14T09:24:05.453827: info: DatabaseGC: Ending sweep. Number of iterations: 4, Total time: 586, Longest run: 269
+2025-04-14T09:53:25.330547: info: Shutdown request from Live
+2025-04-14T09:53:25.829031: info: Database: Cleanup metadata: 15 ms
+2025-04-14T09:53:25.832517: info: Database: Cleanup search aggregation: 4 ms

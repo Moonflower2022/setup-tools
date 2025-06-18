@@ -1,0 +1,31 @@
+2025-04-14T09:53:27.375083: info: #######################################
+2025-04-14T09:53:27.375683: info: Started: Swapper 12.1.10 Build: 2025-02-07_7b405e2e2b
+2025-04-14T09:53:27.375688: info: #######################################
+2025-04-14T09:53:27.375693: info: Init: Setup environment
+2025-04-14T09:53:27.375731: info: UUID: C93F667F-2210-31CA-B656-A44AF3345D3C
+2025-04-14T09:53:27.376330: info: Code ID: identifier "Ableton Swapper" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2025-04-14T09:53:27.376349: info: Init: Version: 'Swapper 12.1.10 Build: 2025-02-07_7b405e2e2b' 1179920
+2025-04-14T09:53:27.376354: info: Init: BuildRevisions: 7b405e2e2bc522b663cf3b6df9e9943e4fcda288
+2025-04-14T09:53:27.376357: info: Init: Commit ID: '7b405e2e2bc522b663cf3b6df9e9943e4fcda288'
+2025-04-14T09:53:27.378043: info: Init: OS: 'macOS 14.5.0 (23F79), Arch:arm64'
+2025-04-14T09:53:27.378058: info: Init: BuildType: 'Release'
+2025-04-14T09:53:27.378067: info: Init: Pid: 87751
+2025-04-14T09:53:27.378109: info: Init: Hardware Model: 'Mac14,7'
+2025-04-14T09:53:27.378123: info: Init: CPU Brand String: 'Apple M2'
+2025-04-14T09:53:27.378132: info: Init: CPU Count: 8
+2025-04-14T09:53:27.378222: info: Init: Physical RAM: 17179869184 B
+2025-04-14T09:53:27.378232: info: Init: Address Space: 18446744073709551615 B
+2025-04-14T09:53:27.378239: info: Init: 64-bit Edition
+2025-04-14T09:53:27.437206: info: Init: Checksum 1: 478ffb1eb0c84d8020cb6c93335a2156
+2025-04-14T09:53:27.452731: info: Init: Checksum 2: 6db35fe48c03cd1d02494c60c75b47b9
+2025-04-14T09:53:27.469692: info: Init: Checksum 3: 6db35fe48c03cd1d02494c60c75b47b9
+2025-04-14T09:53:27.469720: info: Swapper: Start
+2025-04-14T09:53:27.469726: info: Swapper: Running as '/var/folders/nk/zn3pqhxn5j156mhn7jq2cqhm0000gp/T/tmputsycytx/Ableton Swapper"
+2025-04-14T09:53:27.469749: info: Swapper: Working directory: "/private/var/folders/nk/zn3pqhxn5j156mhn7jq2cqhm0000gp/T/tmputsycytx"
+2025-04-14T09:53:27.470874: info: Scanner: Waiting for completion of parent process.
+2025-04-14T09:53:27.576466: info: Swapper: Swapping prepared copy at "/Applications/.Ableton Live 12 Trial_updated.app" to Live installation at "/Applications/Ableton Live 12 Trial.app"
+2025-04-14T09:53:27.576609: info: Swapper: Renaming "/Applications/Ableton Live 12 Trial.app" to "/Applications/Ableton Live 12 Trial.app.Old"
+2025-04-14T09:53:27.577134: info: Swapper: Renaming "/Applications/.Ableton Live 12 Trial_updated.app" to "/Applications/Ableton Live 12 Trial.app"
+2025-04-14T09:53:27.577837: info: Swapper: Deleting "/Applications/Ableton Live 12 Trial.app.Old"
+2025-04-14T09:53:32.811762: info: Swapper: Return code: 0
+2025-04-14T09:53:32.811785: info: Swapper: End

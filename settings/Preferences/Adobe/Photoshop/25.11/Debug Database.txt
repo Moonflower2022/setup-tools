@@ -1,0 +1,4 @@
+Use AdobeClean (not UX) in V7	true	true
+UseAdobeCleanFont	true	true
+dvacore.MainThreadIOLevel	0	0
+dvaui.ReducedContrastForegroundColor	600	600

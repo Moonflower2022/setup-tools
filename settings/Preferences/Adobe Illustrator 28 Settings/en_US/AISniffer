@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AISnifferLog>
+	<RendererType>MetalRenderer</RendererType>
+	<NumDrivers>1</NumDrivers>
+	<MTLDeviceIdentifier>
+		<MTLDeviceRegistryID>4294968337</MTLDeviceRegistryID>
+	</MTLDeviceIdentifier>
+</AISnifferLog>

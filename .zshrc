@@ -15,6 +15,6 @@ function empty_trash() {
         osascript -e 'tell application "Finder" to empty trash'
 }
 
-PS1="%m %1~ %# "
+PS1="%1~ %# "
 
 export EDITOR=nano # for some reason the default editor for crontab is vim and im scared of vim

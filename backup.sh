@@ -32,7 +32,7 @@ sudo cp -r "$PLIST_FILES_PATH" "$BACKUP_DIR/settings" 2>/dev/null || true
 # PUSH TO GITHUB
 ORIGINAL_DIR=$(pwd)
 cd "$BACKUP_DIR"
-git add .
+git add --ignore-errors .
 git commit -m "update settings"
 git push
 cd "$ORIGINAL_DIR"

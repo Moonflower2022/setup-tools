@@ -21,6 +21,10 @@ cp "$ARC_SETTINGS_PATH/keybindings.json" "$BACKUP_DIR/settings/Code"
 ITERM_SETTINGS_PATH="$HOME/Library/Preferences/com.googlecode.iterm2.plist"
 cp "$ITERM_SETTINGS_PATH" "$BACKUP_DIR/settings"
 
+# .zshrc
+ZSHRC_PATH="$HOME/.zshrc"
+cp "$ZSHRC_PATH" "$BACKUP_DIR/settings"
+
 # ALL PLIST FILES
 
 PLIST_FILES_PATH="$HOME/Library/Preferences"
